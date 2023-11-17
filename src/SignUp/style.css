@@ -1,0 +1,117 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 100px;
+    background: #2f008000;
+    padding-bottom: 10px;
+    width: 550px;
+    height: 650px;
+    margin-bottom: 100px;
+  }
+  
+
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 60%;
+    margin-top: 30px;
+    margin-left: 60px;
+  }
+  
+  .text {
+    margin-left: 80px;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top:1px;
+    
+  }
+  
+  .underline {
+    margin-left: 90px;
+    width: 150px;
+    height: 6px;
+    background: #eaeaea;
+    border-radius: 9px;
+  }
+  
+  .inputs {
+    margin-top:30px;
+    display: flex;
+    flex-direction: column;
+    
+    gap: 20px;
+  }
+  
+  .input {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 50 px;
+    height: 60px;
+    background: #eaeaea;
+    border-radius: 6px;
+  }
+  
+  .input img {
+    margin: 0px 30px;
+  }
+  
+  .input input {
+    height: 30px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 19px;
+  }
+  
+  .submit-container {
+    display: flex;
+    gap: 10px;
+    margin: 60px auto;
+    justify-content: center;
+    
+  }
+  
+  .submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    color: #ffffff;
+    background: hsl(231, 52%, 33%);
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+    gap:1px;
+    margin: 1px; /* Adjust the margin as needed */
+    margin-top: -24%;
+    
+  }
+
+  .signin {
+    text-align: center;
+    font-size: 17px;
+    color: #ffffff;
+    margin: 1px ; /* Adjust the margin as needed */
+    margin-top:-6% ;
+  }
+
+  .error-message {
+    color: #ff0000; /* Red color for error messages */
+    font-size: 18px; /* Adjust the font size as needed */
+    margin-left: 42px ;
+    gap : 2px;
+    
+     /* Add some space between the input field and the error message */
+    /* You can add more styles as needed */
+  }
+  
